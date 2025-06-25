@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import About from "./About";
 import Benifit from "./Benifit";
 import Header from "./Header";
@@ -10,7 +10,7 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Nav />
       <Routes>
         <Route path="/" element={
@@ -33,7 +33,7 @@ function App() {
         
       </Routes>
       
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
