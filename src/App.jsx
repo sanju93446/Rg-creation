@@ -1,12 +1,12 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import About from "./About";
-import Benifit from "./Benifit";
-import Header from "./Header";
-import Nav from "./Nav";
-import Projects from "./Projects";
-import Services from "./Services";
-import Feedback from './Feedback';
-import Footer from './Footer';
+import About from "./About.jsx";
+import Benifit from "./Benifit.jsx";
+import Header from "./Header.jsx";
+import Nav from "./Nav.jsx";
+import Projects from "./Projects.jsx";
+import Services from "./Services.jsx";
+import Feedback from './Feedback.jsx';
+import Footer from './Footer.jsx';
 
 function App() {
   return (
