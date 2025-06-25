@@ -6,4 +6,4 @@ export default defineConfig({
   base: '/Rg-creation/',
   plugins: [react()]
   
-})
+});
